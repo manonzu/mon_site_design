@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <link rel="stylesheet" href="style.css">  
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemple de Page HTML</title>
+</head>
+<body>
+
+<header>
+    <h1>Titre Principal</h1>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="#section1">À Propos</a></li>
+        <li><a href="#section2">Services</a></li>
+        <li><a href="#section3">Contact</a></li>
+    </ul>
+</nav>
+
+<section id="section1">
+    <h2>À Propos</h2>
+    <p>Bienvenue sur notre site web. Nous sommes une entreprise dédiée à fournir des solutions web innovantes.</p>
+</section>
+
+<section id="section2">
+    <h2>Nos Services</h2>
+    <ol>
+        <li>Développement Web</li>
+        <li>Conception de sites</li>
+        <li>Marketing en ligne</li>
+    </ol>
+    <div>
+        <p>Service de développement web : <b>À partir de 500 CHF</b></p>
+        <p>Service de conception de sites : <b>À partir de 300 CHF</b></p>
+        <p>Service de marketing en ligne : <b>À partir de 200 CHF/mois</b></p>
+    </div>
+    <img id="image" src="https://raw.githubusercontent.com/gist/patevs/b007a0e98fb216438d4cbf559fac4166/raw/88f20c9d749d756be63f22b09f3c4ac570bc5101/programming.gif" alt="Exemple d'image" width="400px">
+</section>
+
+<section id="section3">
+  <h1 id="reclame"> Où réclamer</h1>
+    <h2>Contactez-nous</h2>
+    <form action="/submit_form" method="post">
+        <div>
+            <label for="username">Nom d'utilisateur :</label>
+            <input type="text" id="username" name="username">
+        </div>
+        <div>
+            <label for="password">Mot de passe :</label>
+            <input type="password" id="password" name="password">
+        </div>
+        <div>
+            <label for="email">Email :</label>
+            <input type="email" id="email" name="email">
+        </div>
+        <div>
+            <label for="message">Message :</label>
+            <textarea id="message" name="message" rows="4" cols="50"></textarea>
+        </div>
+        <button type="submit">Envoyer</button>
+    </form>
+</section>
+
+<footer>
+    <p>&copy; 2024 Mon Site Web. Tous droits réservés.</p>
+</footer>
+
+</body>
+</html>
